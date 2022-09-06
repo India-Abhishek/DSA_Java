@@ -1,4 +1,3 @@
-package Sorting_algo;
 public class SelectionSort {
     public static void Selectionsorting(int [] input){
         for(int i=0; i< input.length; i++){

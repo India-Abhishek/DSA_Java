@@ -1,4 +1,3 @@
-package Sorting_algo;
 
 public class bubbleSort {
     public static void sort(int[] input){
