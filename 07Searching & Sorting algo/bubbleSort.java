@@ -1,37 +1,22 @@
 
 public class bubbleSort {
     public static void sort(int[] input){
-        int start=0;
-        int max=0;
-        int maxindex=0;
-        while(start <input.length){
-            for(int i=0; i<input.length; i++){
-                for(int j=1; j<input.length; j++){
-                    if(input[j]==input[i]){
-                        break;                                                
-                    }
-
-                    else if(input[j]>input[i]){
-                        maxindex=j;
-                        max=input[j];
-                    }
-
+        int max=0;     
+        for(int i=0; i<input.length; i++){
+            for(int j=0; j<input.length -i -1; j++){ //"-i"dont go on that index which already have been sorted
+                if(input[j]>input[j+1]){
+                    max=input[j];
+                    input[j]=input[j +1];
+                    input[j +1]=max;
                 }
-                if(maxindex != i){
-                    input[i]=input[maxindex];
-                    input[maxindex]=max;                   
-
-                }
-                
-                System.out.println(input[i] +" ");
-                
             }
         }
-
     }
     public static void main(String args[]){
         int [] arr={213,54,65,97,54};
         sort(arr);
+        for(int i=0; i<arr.length; i++){
+            System.out.println(arr[i]+" ");
+        }
     }    
-    
 }
