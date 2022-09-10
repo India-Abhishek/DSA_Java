@@ -1,18 +1,29 @@
+// Leet code Question no 151 https://leetcode.com/problems/reverse-words-in-a-string/
+
 public class ReverseStringWordWise {
-    public static void ReversePrint(String str){
-        int start=0;
-        int count =str.length()+1;
-        for(int i=str.length()+1; i<=count; i--){
-            if(str.charAt(i)==' '){
-                System.out.println(str.substring(i, count)+" ");
-                count=i-1;
-            }
+
+    public static String reverseWords(String s) {
+        int i = s.length()-1;
+        String ans="";
+        
+        while(i>=0){
+            while(i>=0 && s.charAt(i)==' ') i--;
+                int j=i;
+            if(i<0) break;
+
+            while(i>=0 && s.charAt(i) != ' ') i--;
+                if(ans.isEmpty()){
+                    ans= ans.concat(s.substring(i+1, j+1));  
+                }
+                else{
+                    ans= ans.concat(" "+s.substring(i+1, j+1));
+                } 
         }
-    
+        return ans;
     }
     public static void main(String args[]){
-        String str="hello world";
-        ReversePrint(str);
+        String str="the sky is blue";
+        System.out.println(reverseWords(str));
+
     }
-    
 }
