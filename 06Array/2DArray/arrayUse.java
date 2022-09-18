@@ -40,6 +40,5 @@ public class arrayUse {
             System.out.println();
         }
     }
-    
-    
+      
 }

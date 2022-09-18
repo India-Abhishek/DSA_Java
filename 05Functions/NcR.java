@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class NcR {
+    // creating a function
     public static int fact(int n){
         int ans = 1;
         for(int i=1; i<=n;i++){
@@ -21,7 +22,7 @@ public class NcR {
         int dim2= fact(n-r);
 
         int ncr= num/(dim1 * dim2);
-
+        // result
         System.out.println("NcR= "+ncr);
 
         

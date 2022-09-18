@@ -19,8 +19,7 @@ public static void secLargest(int []input){
     }
     public static void main(String args[]){;
         int arr[]=new int[]{238,43,643,82,2,5,9};
-        secLargest(arr);       
-
+        secLargest(arr);
     }
     
 }
