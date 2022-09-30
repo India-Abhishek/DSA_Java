@@ -27,6 +27,7 @@ public class binarySearch {
         int ele=sc.nextInt();
         int foundAt=search(arr, ele);
         System.out.println("Found at index no: "+foundAt);
+        sc.close();
     }
 
     
