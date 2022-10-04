@@ -15,7 +15,7 @@ public class addingTwoNum {
         
         System.out.println(sol);
     
-    
+        sc.close();
     }
     
 }

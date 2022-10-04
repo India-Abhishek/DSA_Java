@@ -21,6 +21,8 @@ public class GreatestInThree {
 
         int sol=gre(a, b, c);
         System.out.println("Gretest Number is: "+sol);
+        
+        sc.close();
     }
 }
 

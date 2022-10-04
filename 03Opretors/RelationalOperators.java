@@ -19,6 +19,8 @@ public class RelationalOperators {
     System.out.println("i is greater than j=         "+gre);
     System.out.println("i is less than equal to j=   "+lessEq);
     System.out.println("i is greater than equal to j="+greEq);
-    System.out.println("i is not equal to j=         "+notEq);    
+    System.out.println("i is not equal to j=         "+notEq);   
+    
+    s.close();
     }
 }

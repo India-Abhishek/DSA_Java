@@ -9,6 +9,7 @@ public class for_loop {
         for(int i=0;i<=n;i++){  // intlilzing i=0 and giving conditing that it will run till i<=0 and we are incrementing i
             System.out.println(i);
         }
+        sc.close();
         
     }
     

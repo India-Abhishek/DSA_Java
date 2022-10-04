@@ -1,8 +1,5 @@
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+import java.util.Scanner;
+import java.util.Stack;
 
 public class Solution {
 
@@ -51,7 +48,6 @@ public class Solution {
   }
 
   public static void main(String[] args) {
-
     Scanner in = new Scanner(System.in);
 
     int t = in.nextInt();
@@ -64,5 +60,7 @@ public class Solution {
         System.out.println("YES");
       else System.out.println("NO");
     }
+    
+    in.close();
   }
 }

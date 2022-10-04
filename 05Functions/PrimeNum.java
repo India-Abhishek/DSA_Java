@@ -19,6 +19,8 @@ public class PrimeNum {
         boolean ans=prime(n);
         System.out.println("Input number is Prime number = "+ans);
 
+        sc.close();
+
     }
     
 }

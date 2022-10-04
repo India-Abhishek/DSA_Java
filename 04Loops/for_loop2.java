@@ -11,6 +11,7 @@ public class for_loop2 {
             sum=sum+i;         // adding value in sum every time till condition true (i<=n)
         }
         System.out.println(sum);
+        sc.close();
     }
     
 }

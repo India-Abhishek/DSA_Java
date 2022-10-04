@@ -9,13 +9,9 @@ public class PrintingNnum {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number:");
-        int num=sc.nextInt();
-
-        int ans=numbers(num);
-        System.out.println(ans);
-        
-        
-
+        int n=sc.nextInt();
+        numbers(n);
+        sc.close();
     }
     
 }

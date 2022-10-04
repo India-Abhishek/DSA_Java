@@ -25,6 +25,8 @@ public class NcR {
         // result
         System.out.println("NcR= "+ncr);
 
+        sc.close();
+
         
     }
     

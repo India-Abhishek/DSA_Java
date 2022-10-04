@@ -8,12 +8,12 @@ public class Adding2num {
 
         System.out.println("Addition= "+add);
         
-        short s=145; // data type stores decimal number which take 2bytes.
+        //short s=145; // data type stores decimal number which take 2bytes.
 
-        long l=12345; // data type stores longest decimal number which takes 8 bytes.
+        //long l=12345; // data type stores longest decimal number which takes 8 bytes.
 
         //float f=2.5;
-        double d=14.6;
+        //double d=14.6;
         
         
 

@@ -12,5 +12,6 @@ public class LogicalOperators {
     System.out.println(aisL);
     System.out.println((a>=b) || (a>=c));
     System.out.println(!(a>=b));    
+    s.close();
     }
 }

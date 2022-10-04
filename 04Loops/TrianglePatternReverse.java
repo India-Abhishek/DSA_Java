@@ -14,6 +14,7 @@ public class TrianglePatternReverse {
             System.out.println();
             i++;
         }
+        sc.close();
     }
     
 }

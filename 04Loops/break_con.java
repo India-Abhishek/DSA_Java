@@ -15,7 +15,9 @@ public class break_con {
                 break; // it will break the loop after the condition is true
             }
             System.out.println(i);
+            
         }
+        sc.close();
     }
     
 }
