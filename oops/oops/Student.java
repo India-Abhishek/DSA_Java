@@ -1,5 +1,4 @@
-package Oops;
-
+package oops;
 public class Student {
     String name;
     int roll;
