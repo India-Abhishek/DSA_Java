@@ -1,4 +1,4 @@
-package oops;
+package opps;
 
 public class ObjectWithFunction {
     String name;

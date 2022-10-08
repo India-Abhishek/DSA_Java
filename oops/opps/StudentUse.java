@@ -1,4 +1,4 @@
-package oops;
+package opps;
 
 public class StudentUse {
     public static void main(String [] args){
@@ -8,5 +8,7 @@ public class StudentUse {
 
         System.out.println(s1.name+" "+s1.roll);
     }
+
+    
     
 }

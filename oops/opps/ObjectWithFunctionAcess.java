@@ -1,4 +1,4 @@
-package oops;
+package opps;
 
 public class ObjectWithFunctionAcess {
     public static void main(String  [] args){
