@@ -1,6 +1,8 @@
 >>1 Class and objects
-
-
+    1.1 Class consist of blocks, constructor, variables, methods, inner classes and inner interfaces
+    1.2 Object  is a real world entities 
+        ex: A smartphone..  have storage, battary type, camera features ans so on.
+        
 
 >>2 Access Modeifier
   2.1.Default A.M.
