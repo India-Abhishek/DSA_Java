@@ -8,7 +8,5 @@ public class StudentUse {
 
         System.out.println(s1.name+" "+s1.roll);
     }
-
-    
     
 }
