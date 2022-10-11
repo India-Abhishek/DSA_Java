@@ -10,8 +10,6 @@ public class StudentUse {
 
         System.out.println(s1.name+" "+s1.roll);
 
-        
-
         //Creating an object
         Student s2 = new Student();
 
@@ -20,16 +18,17 @@ public class StudentUse {
         s2.roll = 201390;
 
         // Calling gettier method to print/fetch object properties
-        System.out.println(s2.getName()+" "+s2.getRoll());
+        System.out.println(s2.getName()+" "+s2.getRoll());    
 
 */
+
         // Using constructor create an object
         Student s3 = new Student("Anand", 8430);
         //System.out.println(s3.name);
 
         //since you using ur own constructor The defult constrector will not work any more.
 
-        // Print using print function
+        // Print using print function.
         s3.print();
 
     }

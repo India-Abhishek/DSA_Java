@@ -1,10 +1,9 @@
 package opps;
 
-import javax.swing.plaf.synth.SynthSpinnerUI;
-
 public class Student {
     String name;
     int roll;
+    private String course;
 
 // Creating Setter function to set object properties
      public void setName(String n){
@@ -25,16 +24,16 @@ public class Student {
     }
 
 // Creating a constructor
-       public Student(String StudentName, int StudentRoll){
+    public Student(String StudentName, int StudentRoll){
         name = StudentName;
         roll = StudentRoll;
+        course = "B.tech";//giving them by defult value
     }
 //>> Since you created ur own constructor The defult constrector will not work any more.
 
-
 // Creating a print function
     public void print(){
-        System.out.println(name+" : "+roll);
+        System.out.println(name+" : "+roll+" : "+course);
 
     }
 
