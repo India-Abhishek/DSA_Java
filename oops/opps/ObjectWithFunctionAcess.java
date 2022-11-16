@@ -19,3 +19,4 @@ public class ObjectWithFunctionAcess {
         System.out.println(obj2.name+" "+obj2.getAmoun());
     }
 }
+ 

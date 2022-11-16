@@ -22,4 +22,4 @@
 >>4 Constructor
     Constructor is a function that creates a new objects
     Constructor dosent have any return type
-    it simply construct and object with entities
+    it simply construct object with entities

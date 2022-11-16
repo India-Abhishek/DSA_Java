@@ -10,7 +10,7 @@ public class Student {
         name = n;
     }
 
-    public void setamount(int r){
+    public void setRoll(int r){
         roll = r;
     }
 
@@ -23,7 +23,7 @@ public class Student {
         return name;
     }
 
-// Creating a constructor
+// Creating a constructor 
     public Student(String StudentName, int StudentRoll){
         name = StudentName;
         roll = StudentRoll;
