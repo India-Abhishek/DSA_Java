@@ -4,7 +4,14 @@ public class FractionUse {
     public static void main(String args[]) {
         Fraction f1 = new Fraction(8, 12);
         f1.print();
-        
+        // 2/3
+
+        Fraction f2 = new Fraction(3, 4);
+        f2.print();
+        // 3/4
+
+        Fraction f3 =  Fraction.add(f1, f2);
+        f3.print();
     }
     
 }
