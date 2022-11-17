@@ -24,12 +24,14 @@ public class StudentUse {
 
         // Using constructor create an object
         Student s3 = new Student("Anand", 8430);
+        Student s4 = new Student("Abhishek", 345);
         //System.out.println(s3.name);
 
         //since you using ur own constructor The defult constrector will not work any more.
 
         // Print using print function.
         s3.print();
+        System.out.println("number of student = " + Student.getNumStudent());
         
 
     }

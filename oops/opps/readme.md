@@ -7,19 +7,23 @@
 
 >>2 Access Modeifier
     2.1.Default A.M.
-    is only accessable whithin the package, it cannot be accessable outside of the package.
-    2.2.Private A.m.
-    is only accessable within the class.
+        is only accessable whithin the package, it cannot be accessable outside of the package.
+    2.2.Private A.M.
+        is only accessable within the class.
     3.3.public A.M.
-    is accessable from any class or package.
+        is accessable from any class or package.
 
 
 >>3 Setters and getters
     3.1Getters and Setters in java are two methods used for fetching and updating the value of a variable. 
-    getter is used to print the updated value of the object.
-    setters is used for update the value of the object.
+    3.2getter is use to print the updated value of the object.
+    3.3setter is use for update the value of the object.
 
 >>4 Constructor
     Constructor is a function that creates a new objects
     Constructor dosent have any return type
     it simply construct object with entities
+    You can have multiple constructor
+    we can't call a constructor 2 times on an object. we can constructor only one time on a obj  ect
+
+>>5
