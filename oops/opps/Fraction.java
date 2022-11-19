@@ -1,5 +1,5 @@
 package opps;
-
+// creating a Fraction class
 public class Fraction {
     private int numernator;
     private int denominator;
