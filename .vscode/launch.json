@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DynamicArrayUse",
+            "request": "launch",
+            "mainClass": "opps.DynamicArrayUse",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch FractionUse",
             "request": "launch",
             "mainClass": "opps.FractionUse",
