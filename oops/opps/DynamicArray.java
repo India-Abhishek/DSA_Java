@@ -68,7 +68,7 @@ public class DynamicArray {
         }
     }
 
-
+// Removing last element of array #tobe done
     public int removeLast(){
         if(size() == 0){
             //error out
