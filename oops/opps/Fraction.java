@@ -63,9 +63,16 @@ public class Fraction {
         
 
     }
-// Creating a new static fraction
+// Creating a new static function for addition of fraction
     public static Fraction add(Fraction f1, Fraction f2){
         int newNumernator = f1.numernator * f2.denominator + f1.denominator * f2.numernator;
+        int newDenominator = f1.denominator * f2.denominator;
+        Fraction f = new Fraction(newNumernator, newDenominator);
+        return f;
+    }
+// Creating a new static function for multiplication of two fraction
+    public static Fraction multiply(Fraction f1, Fraction f2){
+        int newNumernator = f1.numernator * f2.numernator;
         int newDenominator = f1.denominator * f2.denominator;
         Fraction f = new Fraction(newNumernator, newDenominator);
         return f;
