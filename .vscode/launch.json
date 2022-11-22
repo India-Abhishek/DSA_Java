@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Truck",
+            "request": "launch",
+            "mainClass": "truck_temp.Truck",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch VehicleUse",
             "request": "launch",
             "mainClass": "vehicle.VehicleUse",

@@ -2,7 +2,7 @@
     1.1 Class consist of blocks, constructor, variables, methods, inner classes and inner interfaces
     1.2 Object  is a real world entities 
         ex: A smartphone..  have storage, battary type, camera features ans so on.
-        to create a object we use "NEW" keyword
+        >>To create a object we use "NEW" keyword
 
 
 >>2 Access Modeifier
@@ -29,4 +29,8 @@
     You can have multiple constructor
     we can't call a constructor 2 times on an object. we can constructor only one time on a obj  ect
 
->>5
+>>5 Inherintance 
+    The class that inherits properties from another class is called inherentance
+    >>To inherent a a class in any other class we use "extend" keyword
+
+    
