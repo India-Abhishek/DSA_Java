@@ -33,4 +33,8 @@
     The class that inherits properties from another class is called inherentance
     >>To inherent a a class in any other class we use "extend" keyword while creating a new class.
 
+>>6 Super Key
+    super is used to refer immediate parent class instance variable.
+    i.e. we are already having a print function in parent c 
+    so we can directly call that function from super class to sub class by using "Super" Key word.
     
