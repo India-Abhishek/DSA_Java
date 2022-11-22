@@ -1,7 +1,7 @@
 package vehicle;
 
 public class Vehicle {
-    String color;
+    protected String color;
     private int maxSpeed;
 
 // // constrector for vehicle
