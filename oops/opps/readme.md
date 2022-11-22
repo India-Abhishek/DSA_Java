@@ -31,6 +31,6 @@
 
 >>5 Inherintance 
     The class that inherits properties from another class is called inherentance
-    >>To inherent a a class in any other class we use "extend" keyword
+    >>To inherent a a class in any other class we use "extend" keyword while creating a new class.
 
     
