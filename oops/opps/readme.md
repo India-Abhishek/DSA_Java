@@ -13,7 +13,7 @@
     3.3.Public A.M.
         is accessable from any class or package.
     3.4.Protected A.M.
-        can be accessed witthin its own package and sub class of its class in the another package.
+        can be accessed witthin its own package or outside of package in sub class of its class in the another package.
 
 
 >>3 Setters and getters
