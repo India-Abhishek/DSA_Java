@@ -5,9 +5,11 @@ public class Fraction {
     private int denominator;
 
 //Constrecture to create a fraction
-    public Fraction(int numernator, int denominator){
+    public Fraction(int numernator, int denominator) throws Exception {
         this.numernator = numernator;
-        if(denominator == 0){
+        if(denominator == 0) {
+            Exception ex = new Exception("Denominator can not be 0 ");
+            throw ex;
             // todo error out
         }
         this.denominator = denominator;
@@ -27,10 +29,11 @@ public class Fraction {
         simplify();
     }
 
-    public void setDenominator(int d){
+    public void setDenominator (int d) throws Exception{
         if(d == 0){
-            //Todo error out
-            return;
+            Exception e = new Exception("Denominator can not be 0 ");
+            throw e;
+            //return;
         }
         this.denominator=d;
         simplify();

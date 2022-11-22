@@ -1,7 +1,7 @@
 package opps;
 
 public class FractionUse {
-    public static void main(String args[]) {
+    public static void main(String args[]) throws Exception {
         Fraction f1 = new Fraction(8, 12);
         f1.print();
         // 2/3

@@ -48,5 +48,18 @@
         syntex-
          Vehicle v = car();
 
+>>8 Exception Handling  
+    A way of functions to tell u that we are doing something Wrong.
+    i.e. we are trying accessing an array index in a array which is out of array size thats gives Exception that array index out of bound. 
 
-    
+    >>
+    Type of Exception
+    8.1 Runtime Exception
+        occur coz of having bugs in the code.
+        i.e. Array index out of bound
+    8.2 Errors
+        Extreme errors 
+        i.e. Hard disk Failure 
+    8.3 Named Exceptions
+        expect that this exception will occur.
+        i.e. wrong input
