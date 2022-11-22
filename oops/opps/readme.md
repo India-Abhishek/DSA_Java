@@ -9,9 +9,11 @@
     2.1.Default A.M.
         is only accessable whithin the package, it cannot be accessable outside of the package.
     2.2.Private A.M.
-        is only accessable within the class.
-    3.3.public A.M.
+        is only Can accessable within the class.
+    3.3.Public A.M.
         is accessable from any class or package.
+    3.4.Protected A.M.
+        can be accessed witthin its own package and sub class of its class in the another package 
 
 
 >>3 Setters and getters
