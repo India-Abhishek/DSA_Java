@@ -37,7 +37,7 @@ public class Student {
         course = "B.tech";//giving them by defult value
         numStudent++; // incrementing value of numStudent whenever we are creating a new student oblect
     }
-//>> Since you created ur own constructor The defult constrector will not work any more.
+//>> Since we created ur own constructor The defult constrector will not work any more.
 
 // Creating a print function
     public void print(){

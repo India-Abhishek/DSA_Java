@@ -27,7 +27,7 @@ public class StudentUse {
         Student s4 = new Student("Abhishek", 345);
         //System.out.println(s3.name);
 
-        //since you using ur own constructor The defult constrector will not work any more.
+        //since we using ur own constructor The defult constrector will not work any more.
 
         // Print using print function.
         s3.print();
