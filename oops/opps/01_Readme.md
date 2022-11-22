@@ -40,6 +40,13 @@
     i.e. super.print();
 
 >>7 Polymorphism
-    Somthing taking multiple forms
+    Somthing taking multiple forms.
+    represent any function in many types and many forms
+    i.e. Vehicle can be in many types.
+         Car, Truck, Bike 
+
+        syntex-
+         Vehicle v = car();
+
 
     
