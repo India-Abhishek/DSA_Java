@@ -4,11 +4,15 @@ public class Vehicle {
     protected String color;
     private int maxSpeed;
 
-// // constrector for vehicle
-//     public Vehicle(String color, int maxSpeed){
-//         this.color = color;
-//         this.maxSpeed = maxSpeed;
-//     }
+// constrector for vehicle
+    public Vehicle(String color, int maxSpeed){
+        this.color = color;
+        this.maxSpeed = maxSpeed;
+    }
+    public Vehicle(){
+        System.out.println("Defult Vehicle Constrector");
+
+    }
 
 // setter for max speed
     public void setMaxSpeed(int maxSpeed) {

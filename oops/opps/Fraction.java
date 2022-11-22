@@ -29,7 +29,7 @@ public class Fraction {
 
     public void setDenominator(int d){
         if(d == 0){
-            //TODO error out
+            //Todo error out
             return;
         }
         this.denominator=d;
