@@ -13,13 +13,14 @@
     3.3.Public A.M.
         is accessable from any class or package.
     3.4.Protected A.M.
-        can be accessed witthin its own package and sub class of its class in the another package 
+        can be accessed witthin its own package and sub class of its class in the another package.
 
 
 >>3 Setters and getters
     3.1Getters and Setters in java are two methods used for fetching and updating the value of a variable. 
     3.2getter is use to print the updated value of the object.
     3.3setter is use for update the value of the object.
+
 
 >>4 Constructor
     Constructor is a function that creates a new objects
