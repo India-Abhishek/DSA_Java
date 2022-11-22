@@ -10,8 +10,7 @@ public class Vehicle {
         this.maxSpeed = maxSpeed;
     }
     public Vehicle(){
-        System.out.println("Defult Vehicle Constrector");
-
+        
     }
 
 // setter for max speed

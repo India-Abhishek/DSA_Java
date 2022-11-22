@@ -16,8 +16,8 @@ public class Car extends Vehicle{
         // here we called super class print so we dont have to write for SYS.out 
         // for that object which we are already printing in the super class 
         //we simply use super keyword to access parent's class constrector.
-        System.out.println("Vehicle num Gears : " + numGears);
-        System.out.println("Vehicle is Petrol : " + isPetrol);
+        System.out.println("Car Have num Gears : " + numGears);
+        System.out.println("Car is is Petrol : " + isPetrol);
 
     }
     
