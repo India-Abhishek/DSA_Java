@@ -7,6 +7,7 @@ public class Fraction {
 //Constrecture to create a fraction
     public Fraction(int numernator, int denominator) throws ZeroDenominatorException{
         this.numernator = numernator;
+// try and catch
         try{
             if(denominator == 0) {
                 ZeroDenominatorException ex = new ZeroDenominatorException();

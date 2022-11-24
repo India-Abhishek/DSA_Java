@@ -67,3 +67,15 @@
 >>9 Try and Catch
     when we try and run a some code if code is correct then ok
     if it throw an excaption then catch will handel that exception
+
+    syntax example:
+    try{
+            if(denominator == 0) {
+                ZeroDenominatorException ex = new ZeroDenominatorException();
+                throw ex;
+                // todo error out
+            }
+        }
+        catch(ZeroDenominatorException ex){
+            System.out.println("You cant input 0 as a denominator");
+        }
