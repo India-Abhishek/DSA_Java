@@ -7,10 +7,15 @@ public class Fraction {
 //Constrecture to create a fraction
     public Fraction(int numernator, int denominator) throws ZeroDenominatorException{
         this.numernator = numernator;
-        if(denominator == 0) {
-            ZeroDenominatorException ex = new ZeroDenominatorException();
-            throw ex;
-            // todo error out
+        try{
+            if(denominator == 0) {
+                ZeroDenominatorException ex = new ZeroDenominatorException();
+                throw ex;
+                // todo error out
+            }
+        }
+        catch(ZeroDenominatorException ex){
+            System.out.println("You cant input 0 as a denominator");
         }
         this.denominator = denominator;
         simplify();

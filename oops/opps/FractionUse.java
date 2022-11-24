@@ -2,9 +2,9 @@ package opps;
 
 public class FractionUse {
     public static void main(String args[]) throws ZeroDenominatorException{
-        Fraction f1 = new Fraction(8, 14);
+        Fraction f1 = new Fraction(8, 0);
         f1.print();
-        // 2/3
+        
 
         Fraction f2 = new Fraction(3, 4);
         f2.print();
