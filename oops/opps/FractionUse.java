@@ -16,6 +16,7 @@ public class FractionUse {
         // Todo Fraction multiplication
         // Fraction f4 =  Fraction.multiply(f1, f2);
         // f4.print();
+        
     }
     
 }
