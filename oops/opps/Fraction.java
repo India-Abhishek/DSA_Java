@@ -5,10 +5,10 @@ public class Fraction {
     private int denominator;
 
 //Constrecture to create a fraction
-    public Fraction(int numernator, int denominator) throws Exception {
+    public Fraction(int numernator, int denominator) throws ZeroDenominatorException{
         this.numernator = numernator;
         if(denominator == 0) {
-            Exception ex = new Exception("Denominator can not be 0 ");
+            ZeroDenominatorException ex = new ZeroDenominatorException();
             throw ex;
             // todo error out
         }
@@ -29,11 +29,11 @@ public class Fraction {
         simplify();
     }
 
-    public void setDenominator (int d) throws Exception{
+    public void setDenominator (int d){
         if(d == 0){
-            Exception e = new Exception("Denominator can not be 0 ");
-            throw e;
-            //return;
+            // Exception e = new Exception("Denominator can not be 0 ");
+            // throw e;
+            return;
         }
         this.denominator=d;
         simplify();
@@ -67,14 +67,14 @@ public class Fraction {
 
     }
 // Creating a new static function for addition of fraction
-    public static Fraction add(Fraction f1, Fraction f2){
+    public static Fraction add(Fraction f1, Fraction f2)throws ZeroDenominatorException{
         int newNumernator = f1.numernator * f2.denominator + f1.denominator * f2.numernator;
         int newDenominator = f1.denominator * f2.denominator;
         Fraction f = new Fraction(newNumernator, newDenominator);
         return f;
     }
 // Creating a new static function for multiplication of two fraction
-    public static Fraction multiply(Fraction f1, Fraction f2){
+    public static Fraction multiply(Fraction f1, Fraction f2) throws ZeroDenominatorException{
         int newNumernator = f1.numernator * f2.numernator;
         int newDenominator = f1.denominator * f2.denominator;
         Fraction f = new Fraction(newNumernator, newDenominator);

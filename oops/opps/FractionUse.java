@@ -1,8 +1,8 @@
 package opps;
 
 public class FractionUse {
-    public static void main(String args[]) throws Exception {
-        Fraction f1 = new Fraction(8, 12);
+    public static void main(String args[]) throws ZeroDenominatorException{
+        Fraction f1 = new Fraction(8, 14);
         f1.print();
         // 2/3
 
@@ -16,6 +16,8 @@ public class FractionUse {
         // Todo Fraction multiplication
         // Fraction f4 =  Fraction.multiply(f1, f2);
         // f4.print();
+
+        //f1.setDenominator(48);
         
     }
     
