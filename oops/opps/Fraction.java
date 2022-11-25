@@ -4,7 +4,7 @@ public class Fraction {
     private int numernator;
     private int denominator;
 
-//Constrecture to create a fraction
+//Constructor to create a fraction
     public Fraction(int numernator, int denominator) throws ZeroDenominatorException{
         this.numernator = numernator;
 // try and catch

@@ -1,11 +1,11 @@
 package opps;
 
-public class ConstrectorStudent {
+public class ConstructorStudent {
     String name;
     int roll;
     
     // Creating a constructor
-    public ConstrectorStudent(String StudentName, int StudentRoll){
+    public ConstructorStudent(String StudentName, int StudentRoll){
         name = StudentName;
         roll = StudentRoll;
     }
