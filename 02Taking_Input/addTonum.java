@@ -11,7 +11,7 @@ public class addTonum {
         scan.close();
         int sum=i+j; //adding 
 
-        System.out.println("Addition= "+sum);
+        System.out.println("Addition = "+sum);
         
     }
     

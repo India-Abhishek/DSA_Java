@@ -1,6 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "oops",
-        "04Loops"
+        "02Taking_Input",
+        "04Loops",
+        "09Recursion",
+        "oops"
     ]
 }
