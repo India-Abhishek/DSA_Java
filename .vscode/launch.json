@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SumOfNaturalNumbers",
+            "request": "launch",
+            "mainClass": "SumOfNaturalNumbers",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch Factorial",
             "request": "launch",
             "mainClass": "Factorial",
