@@ -64,7 +64,7 @@
         expect that this exception will occur.
         i.e. wrong input
     
->>9 Try and Catch
+>>9 Exception handling -- Try and Catch
     when we try and run a some code if code is correct then ok
     if it throw an excaption then catch will handel that exception
 
