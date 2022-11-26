@@ -2,7 +2,7 @@
       is computer science is a method where the solution to a problem depends
       on solution to smaller instances of the same problem.
 
-      in short-
+      In short-
       >>Recursion is a function calling itself.
 
 >> 01 Base Case
