@@ -44,6 +44,5 @@ public class Student {
         System.out.println(name+" : "+roll+" : "+course);
 
     }
-
     
 }
