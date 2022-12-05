@@ -35,7 +35,7 @@ public class Student {
         this.name = name;
         this.roll = roll;
         course = "B.tech";//giving them by defult value
-        numStudent++; // incrementing value of numStudent whenever we are creating a new student oblect
+        numStudent++; // incrementing value of numStudent whenever we are creating a new student object
     }
 //>> Since we created ur own constructor The defult constrector will not work any more.
 
