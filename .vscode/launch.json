@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fact",
+            "request": "launch",
+            "mainClass": "fact",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch SumOfNaturalNumbers",
             "request": "launch",
             "mainClass": "SumOfNaturalNumbers",
