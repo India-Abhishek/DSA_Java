@@ -12,7 +12,7 @@ public class break_con {
                 continue;// it will skip the that part if the condition is true and will continue normally. 
             }
             else if( i==9 ){
-                break; // it will break the loop after the condition is true
+                break; // if condition is true it will break and jump out from loop
             }
             System.out.println(i);
             

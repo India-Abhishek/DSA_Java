@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch nestedloopPattern",
+            "request": "launch",
+            "mainClass": "nestedloopPattern",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "Launch whileloop",
+            "request": "launch",
+            "mainClass": "whileloop",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "Launch elseif",
+            "request": "launch",
+            "mainClass": "elseif",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "Launch addtwonumber",
+            "request": "launch",
+            "mainClass": "addtwonumber",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch primenumber",
             "request": "launch",
             "mainClass": "primenumber",
