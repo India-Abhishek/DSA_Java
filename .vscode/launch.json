@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch primenumber",
+            "request": "launch",
+            "mainClass": "primenumber",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch evenNumbers",
             "request": "launch",
             "mainClass": "evenNumbers",
