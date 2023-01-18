@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch nestedloopPatternTwo",
+            "request": "launch",
+            "mainClass": "nestedloopPatternTwo",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch nestedloopPattern",
             "request": "launch",
             "mainClass": "nestedloopPattern",
