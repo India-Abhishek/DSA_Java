@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch charPattern",
+            "request": "launch",
+            "mainClass": "charPattern",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch square",
             "request": "launch",
             "mainClass": "square",
