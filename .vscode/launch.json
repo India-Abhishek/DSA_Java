@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch squarePattern",
+            "request": "launch",
+            "mainClass": "squarePattern",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "Launch tranglePattern",
+            "request": "launch",
+            "mainClass": "tranglePattern",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternTwo",
+            "request": "launch",
+            "mainClass": "patternTwo",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch nestedloopPatternTwo",
             "request": "launch",
             "mainClass": "nestedloopPatternTwo",
