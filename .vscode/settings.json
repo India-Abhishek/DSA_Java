@@ -1,10 +1,10 @@
 {
     "java.project.sourcePaths": [
-        "02Taking_Input",
-        "04Loops",
-        "09Recursion",
         "oops",
-        "Revision"
+        "Revision",
+        "09Recursion",
+        "02Taking_Input",
+        "04Loops&patterns"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }

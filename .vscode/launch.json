@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch pattern5",
+            "request": "launch",
+            "mainClass": "pattern5",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "Launch reversePattern",
+            "request": "launch",
+            "mainClass": "reversePattern",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch charPattern",
             "request": "launch",
             "mainClass": "charPattern",

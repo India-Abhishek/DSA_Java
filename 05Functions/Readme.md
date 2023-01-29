@@ -1,0 +1,1 @@
+Function- Function is a peace of code that take an input and perform a specific action.

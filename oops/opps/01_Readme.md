@@ -27,7 +27,7 @@
     Constructor dosent have any return type
     it simply construct object with entities
     You can have multiple constructor
-    we can't call a constructor 2 times on an object. we can constructor only one time on a obj  ect
+    we can't call a constructor 2 times on an object. we can construct only one time on a object
 
 >>5 Inherintance 
     The class that inherits properties from another class is called inherentance
