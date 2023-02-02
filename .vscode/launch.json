@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch constructor",
+            "request": "launch",
+            "mainClass": "opps.constructor",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch pattern5",
             "request": "launch",
             "mainClass": "pattern5",

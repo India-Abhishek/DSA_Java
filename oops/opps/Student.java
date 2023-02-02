@@ -16,7 +16,7 @@ public class Student {
         roll = r;
     }
 
-// creating a static function which dosent depend on any object
+// creating a static function which doesnot depend on any object
     public static int getNumStudent(){
         return numStudent;
     }

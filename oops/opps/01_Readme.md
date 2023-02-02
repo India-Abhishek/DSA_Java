@@ -1,6 +1,6 @@
 >>1 Class and objects
     1.1 Class consist of blocks, constructor, variables, methods, inner classes and inner interfaces
-    1.2 Object  is a real world entities 
+    1.2 Object is a real world entities 
         ex: A smartphone..  have storage, battary type, camera features ans so on.
         >>To create a object we use "NEW" keyword
 
@@ -45,7 +45,7 @@
     i.e. Vehicle can be in many types.
          Car, Truck, Bike 
 
-        syntex-
+        syntax-
          Vehicle v = car();
 
 >>8 Exception Handling  
