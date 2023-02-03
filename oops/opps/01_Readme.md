@@ -35,7 +35,7 @@
 
 >>6 Super Key
     super is used to refer immediate parent class instance variable.
-    i.e. we are already having a print function in parent c 
+    i.e. we are already having a print function in parent class.
     >>so we can directly call that function from super class to sub class by using "Super" Key word and access data member from super class. 
     i.e. super.print();
 
