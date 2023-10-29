@@ -2,9 +2,11 @@
     "java.project.sourcePaths": [
         "oops",
         "Revision",
+        "Recapp",
         "09Recursion",
+        "04Loops&patterns",
         "02Taking_Input",
-        "04Loops&patterns"
+        "00First Output"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }

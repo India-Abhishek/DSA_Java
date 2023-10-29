@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "recapp",
+            "request": "launch",
+            "mainClass": "recapp",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Launch constructor",
             "request": "launch",
             "mainClass": "opps.constructor",
