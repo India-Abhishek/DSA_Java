@@ -62,7 +62,7 @@
         i.e. Hard disk Failure 
     8.3 Named Exceptions
         expect that this exception will occur.
-        i.e. wrong input
+        i.e. wrong input.
     
 >>9 Exception handling -- Try and Catch
     when we try and run a some code if code is correct then ok
