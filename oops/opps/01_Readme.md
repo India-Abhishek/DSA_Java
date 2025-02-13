@@ -79,3 +79,6 @@
         catch(ZeroDenominatorException ex){
             System.out.println("You cant input 0 as a denominator");
         }
+
+>>10 Massage Passing -- Objects communicate with one another by sending and receiving information to eachother.
+    A message for an object is a request for execution of a procedure and therefore will invoke a function in the receiving object that generates the desired results. Message passing involves specifying the name of the object, the name of the function and the information to be sent.
