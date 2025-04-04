@@ -32,6 +32,8 @@ DATA TYPES - 2TYPES
 //-----------------------------------------------------------//
 
 Type conversion and Type casting
+Converting the type of variable from one to another.
+Every variable need a name and type as well.
 
 //-----------------------------------------------------------//
 >>extra note: to count the zero in int variable we can put underscore between the numbers.
@@ -44,4 +46,19 @@ Ex: assigning a integer variable to byte or byte to integer
     int a = 256;
     b=a; // this will not work because size of an byte can not store the big range/size of integer.
     a=b; // this will work as type of a has a bigger range.
-    b=(byte)a; //converting my integer value into byte 
+    b=(byte)a; //converting my integer value into byte (casting)
+
+Java also promote the value 
+
+EX: byte a1 = 10;
+    byte a2 = 30;
+
+    nt result = a1*a2; // byte * byte  = 300 now the value will go out of range og byte.
+                        // so the value will be promoted into integer value by JAVA and we can store it into integer.
+ //-----------------------------------------------------------//
+
+ Operator
+  >>To perfrom operations on diffrent values we use operators
+ //-----------------------------------------------------------//
+
+
