@@ -34,6 +34,9 @@ DATA TYPES - 2TYPES
 Type conversion and Type casting
 
 //-----------------------------------------------------------//
+>>extra note: to count the zero in int variable we can put underscore between the numbers.
+ex: int a = 10_00_00_000;
+output : a = 100000000
 
 Every variable needs a name and variable Types as well.
 Ex: assigning a integer variable to byte or byte to integer
