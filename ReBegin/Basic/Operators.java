@@ -14,6 +14,26 @@ public class Operators {
         System.out.println(num1 +"\n 5 after pre incement ="+ result+ "\n10 post increment =" + result2 + "\n 10after post incremnt 10 in now ="+num3); 
         num1--;                     //decrement
         System.out.println(num1); 
+
+        //Relational OPerators
+        //to compare values of the variable.
+
+        int num4 = 6;
+        int num5 = 7;
+        int a = 10;
+        int b = 25;
+
+        boolean resultbool = num4 > num5;
+        boolean resultbool2 = num4 != num5;
+        System.out.println(resultbool+"\n"+resultbool2);
+
+        //Logic Oprator
+        // &-AND, |-OR ,!- NOT //Shortcircuit -- &&, ||
+        boolean logicbool = num4 > num5 && a<b;
+        boolean logicbool2 = num4 > num5 || a<b || a<0;
+        System.out.println("Logic && "+logicbool+"\nLogic || "+logicbool2);
+    
+
     }
     
 }

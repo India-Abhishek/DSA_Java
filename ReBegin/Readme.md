@@ -61,4 +61,69 @@ EX: byte a1 = 10;
   >>To perfrom operations on diffrent values we use operators
  //-----------------------------------------------------------//
 
+    1. Arithmetic Operators
+    These operators are used to perform basic arithmetic operations.
 
+    Addition: +
+    Subtraction: -
+    Multiplication: *
+    Division: /
+    Modulus: %
+
+    2. Unary Operators
+    These operators operate on a single operand.
+
+    Unary plus: +
+    Unary minus: -
+    Increment: ++
+    Decrement: --
+    Logical complement: !
+
+    3. Relational Operators
+    These operators are used to compare two values.
+
+    Equal to: ==
+    Not equal to: !=
+    Greater than: >
+    Less than: <
+    Greater than or equal to: >=
+    Less than or equal to: <=
+
+    4. Logical Operators
+    These operators are used to perform logical operations.
+
+    AND: &&
+    OR: ||
+    NOT: !
+
+    5. Bitwise Operators
+    These operators are used to perform bit-level operations.
+
+    Bitwise AND: &
+    Bitwise OR: |
+    Bitwise XOR: ^
+    Bitwise Complement: ~
+    Left shift: <<
+    Right shift: >>
+    Unsigned right shift: >>>
+
+    6. Assignment Operators
+    These operators are used to assign values to variables.
+
+    Simple assignment: =
+    Add and assign: +=
+    Subtract and assign: -=
+    Multiply and assign: *=
+    Divide and assign: /=
+    Modulus and assign: %=
+    Bitwise AND and assign: &=
+    Bitwise OR and assign: |=
+    Bitwise XOR and assign: ^=
+    Left shift and assign: <<=
+    Right shift and assign: >>=
+    Unsigned right shift and assign: >>>=
+    
+    7. Conditional (Ternary) Operator
+    This operator is used to evaluate a boolean expression and return one of two values.
+
+    Ternary: ? :
