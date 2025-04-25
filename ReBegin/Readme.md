@@ -127,3 +127,19 @@ EX: byte a1 = 10;
     This operator is used to evaluate a boolean expression and return one of two values.
 
     Ternary: ? :
+ //-----------------------------------------------------------//
+
+Loops refer basic/conditional.java
+
+ //-----------------------------------------------------------//
+
+
+
+                            OOPs
+                 Object orinted programing
+
+
+
+ //-----------------------------------------------------------//
+
+what is object
