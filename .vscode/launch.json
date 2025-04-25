@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Condional",
+            "request": "launch",
+            "mainClass": "Condional",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "recapp",
             "request": "launch",
             "mainClass": "recapp",

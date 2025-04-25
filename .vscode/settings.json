@@ -6,7 +6,8 @@
         "09Recursion",
         "04Loops&patterns",
         "02Taking_Input",
-        "00First Output"
+        "00First Output",
+        "ReBegin/Basic"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
