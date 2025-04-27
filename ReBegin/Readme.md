@@ -5,7 +5,7 @@ java is platform independent
 
 
 >>write a java program & save in .java file 
-    >> (JAVAC) converts into byte code by java complier 
+    >> (JAVAC) converts the code into byte code by java complier by JDK
         >> then JVM run Byte code (JVM runs only one file and it should have main method [public static void main(String[] args )])
             >>When we wants to run something we need JRE (java runtime environment)
               JVA with library is a part of JVM
@@ -143,3 +143,15 @@ Loops refer basic/conditional.java
  //-----------------------------------------------------------//
 
 what is object
+
+
+
+ //-----------------------------------------------------------//
+
+ Method
+
+ method overloading =  we can have multiple method with same name but with diffrent paramenters or with diffrent type
+
+ ---------------
+ Array- to store multiple value in a variable we use array.
+ 

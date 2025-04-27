@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringConcepts",
+            "request": "launch",
+            "mainClass": "StringConcepts",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
+            "name": "Basic",
+            "request": "launch",
+            "mainClass": "Basic",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "Condional",
             "request": "launch",
             "mainClass": "Condional",
