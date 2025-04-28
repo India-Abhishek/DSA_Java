@@ -31,7 +31,6 @@ public class StaticKeyword {
         st1.show();
         st2.show();
         st3.show();
-
         
     }
     
