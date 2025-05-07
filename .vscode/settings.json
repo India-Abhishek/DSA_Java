@@ -3,12 +3,13 @@
         "oops",
         "Revision",
         "Recapp",
+        "ReBegin/OOPs",
         "ReBegin/Basic",
         "09Recursion",
         "04Loops&patterns",
         "02Taking_Input",
         "00First Output",
-        "ReBegin/OOPs"
+        "05Functions"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
