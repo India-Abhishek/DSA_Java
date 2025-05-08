@@ -33,11 +33,5 @@ public class ReverseAnumber {
         rev2 = str.reverse(); // reversing with reverse function
         System.out.println(str == rev2); //comparing.
 
-
-
-
-
-
-
     }
 }
