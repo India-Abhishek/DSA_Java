@@ -41,7 +41,7 @@
     Hiding the process and showing only the functionalites
 
     abstration can be achived by two ways 
-5.3.1.Abstract class = if a method is defined as abstract then its inharate class must  define the abstract.
+5.3.1.Abstract class = if a method is defined as abstract then its inharate class must  define the method body(implimentation).
     we cant create a object of a abstract class.
 
     i.e. 
