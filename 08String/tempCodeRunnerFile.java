@@ -1,0 +1,1 @@
+case 2: comparing 2 string

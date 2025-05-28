@@ -33,6 +33,77 @@
     The class that inherits properties from another class is called inherentance
     >>To inherent a a class in any other class we use "extend" keyword while creating a new class.
 
+>>5.1 Encapsulation
+    Binding up the code in a single usint is called encapsulation
+    i.e. a class, a method.
+
+>>5.3 Abstraction
+    Hiding the process and showing only the functionalites
+
+    abstration can be achived by two ways 
+5.3.1.Abstract class = if a method is defined as abstract then its inharate class must  define the abstract.
+    we cant create a object of a abstract class.
+
+    i.e. 
+    abstract class Car{
+        public abstract void drive();
+
+        public void playMusic(){
+            System.out.println("Playing music...");
+        }
+    }
+
+    class Swift extends Car{    //Concrete class
+        public void drive(){
+            System.out.println("Driving...");
+        }
+
+        public void autoPark(){
+            System.out.println("this car can park it self");
+        }
+    }
+
+2.interface =
+    /*
+ * Interface is like a class but - by default all the variable and methods are public abstract.
+ * All the variable inside the interface are by default final and static.
+ * Inheritance is also valid in interface
+ */
+
+    interface A{
+
+        int num = 10;
+
+        void show();
+        void config();
+    }
+
+    interface A2{
+        void run();
+
+    }
+
+    interface A3 extends A2{
+
+    }
+
+    // a class can implement one or more interfaces
+    // whatever method we have defined in interface we have to initiate in our class.
+    class B implements A,A3 {
+        public void show(){
+            System.out.println("Show method");
+        } 
+
+        public void config(){
+            System.out.println("in config method");
+        }
+
+        public void run(){
+            System.out.println("running");
+        }
+    }
+
+
 >>6 Super Key
     super is used to refer immediate parent class instance variable.
     i.e. we are already having a print function in parent class. 
