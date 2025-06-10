@@ -6,11 +6,12 @@
         "ReBegin/OOPs",
         "ReBegin/Basic",
         "09Recursion",
+        "08String",
         "05Functions",
         "04Loops&patterns",
         "02Taking_Input",
         "00First Output",
-        "08String"
+        "06Array"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
