@@ -7,10 +7,10 @@ public class SubArray {
         //     System.out.println(n);
         // }
 
-        for(int i=0; i<arr.length; i++){
-            for(int j=i; j<arr.length; j++){
-                for(int k=i; k<=j; k++){
-                    System.out.print(arr[k]+" ");
+        for(int st=0; st<arr.length; st++){
+            for(int end=st; end<arr.length; end++){
+                for(int i=st; i<=end; i++){
+                    System.out.print(arr[i]+" ");
                 }
                 System.out.println();
             }
