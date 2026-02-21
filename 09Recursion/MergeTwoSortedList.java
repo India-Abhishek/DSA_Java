@@ -12,8 +12,6 @@ public class MergeTwoSortedList {
         
     }
 
-
-
         List<Integer> listA = List.of(1, 3, 5, 7); // Java 9+ for List.of()
         List<Integer> listB = List.of(2, 4, 6, 8);
 

@@ -6,6 +6,7 @@ public class Factorial {
         }
 
         int smallAns = fact(n - 1); 
+        
         return smallAns * n;        
     }
     public static void main(String args[]){

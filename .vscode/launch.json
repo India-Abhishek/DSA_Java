@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SinglyLinkedlist",
+            "request": "launch",
+            "mainClass": "SinglyLinkedlist",
+            "projectName": "DSA_JAVA_2b57cf66"
+        },
+        {
+            "type": "java",
             "name": "SubArray",
             "request": "launch",
             "mainClass": "SubArray",

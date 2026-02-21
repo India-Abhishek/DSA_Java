@@ -7,11 +7,12 @@
         "ReBegin/Basic",
         "09Recursion",
         "08String",
+        "06Array",
         "05Functions",
         "04Loops&patterns",
         "02Taking_Input",
         "00First Output",
-        "06Array"
+        "10LinkedList"
     ],
     "java.debug.settings.onBuildFailureProceed": true
 }
